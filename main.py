@@ -12,4 +12,4 @@ me = client.get_me()
 print(me.stringify())
 
 # Sending a message (you can use 'me' or 'self' to message yourself)
-# client.send_message('username', 'Hello World from Telethon!')
+client.send_message(me, 'Hello World from Telethon!')
